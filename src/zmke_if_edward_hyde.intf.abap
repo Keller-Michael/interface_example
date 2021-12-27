@@ -1,4 +1,7 @@
-interface ZMKE_IF_EDWARD_HYDE
-  public .
+INTERFACE zmke_if_edward_hyde PUBLIC.
 
-endinterface.
+  METHODS do_malicious_things.
+
+  METHODS switch_personality RETURNING VALUE(result) TYPE REF TO zmke_if_henry_jekyll.
+
+ENDINTERFACE.
